@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="YUE XI 月汐是一间现代中餐 Fine Dining 官网样板，呈现节气菜单、茶酒搭配、私宴与订位体验。"
+    >
+    <title>YUE XI 月汐 | Modern Chinese Fine Dining</title>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand-lockup" href="#hero" aria-label="YUE XI 月汐 home">
+        <span class="brand-en">YUE XI</span>
+        <span class="brand-cn">月汐</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-controls="site-nav"
+        aria-expanded="false"
+        data-nav-toggle
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" data-nav>
+        <a href="#menu">Menu</a>
+        <a href="#chef">Chef</a>
+        <a href="#private-dining">Private Dining</a>
+        <a href="#visit">Visit</a>
+        <a href="#reserve" class="nav-reserve">Reserve</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Modern Chinese Fine Dining</p>
+          <h1 id="hero-title" aria-label="一席山海，入夜成宴">
+            <span>一席山海，</span><span>入夜成宴</span>
+          </h1>
+          <p class="hero-copy">
+            以二十四节气为线索，将海味、山珍、茶与酒带入一间安静的当代中式餐室。
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-light" href="#reserve">Reserve a Table</a>
+            <a class="button button-ghost" href="#menu">View Seasonal Menu</a>
+          </div>
+        </div>
+        <div class="hero-aside" aria-label="Current dining format">
+          <span>Spring Tasting</span>
+          <strong>8 courses</strong>
+          <span>Tea Pairing / Wine Pairing</span>
+        </div>
+      </section>
+
+      <section class="trust-strip" id="trust" aria-label="Restaurant highlights">
+        <article>
+          <span class="trust-label">Guide Reference</span>
+          <strong>MICHELIN-inspired</strong>
+          <p>以国际高级餐饮官网的清晰动线呈现奖项、服务和到访信任。</p>
+        </article>
+        <article>
+          <span class="trust-label">Seasonal Menu</span>
+          <strong>8 道节气品鉴</strong>
+          <p>围绕山海食材、火候、汤品与茶点构成完整晚餐节奏。</p>
+        </article>
+        <article>
+          <span class="trust-label">Concierge</span>
+          <strong>Private Dining</strong>
+          <p>为商务宴请、纪念日和主厨私宴保留独立咨询入口。</p>
+        </article>
+      </section>
+
+      <section class="section section-menu" id="menu" aria-labelledby="menu-title">
+        <div class="section-kicker">Seasonal Tasting Menu</div>
+        <div class="section-heading">
+          <h2 id="menu-title">以节气为序，山海入席</h2>
+          <p>
+            春季菜单以清鲜海味、山野香气与温润汤品展开。每一道菜保留中式味觉的骨架，以当代表达控制节奏、温度与留白。
+          </p>
+        </div>
+
+        <div class="menu-layout">
+          <div class="menu-intro">
+            <img
+              src="https://images.unsplash.com/photo-1526318896980-cf78c088247c?auto=format&fit=crop&w=900&q=84"
+              alt="精致中式料理摆盘"
+            >
+            <div class="price-card">
+              <span>Current Experience</span>
+              <strong>RMB 1,680</strong>
+              <p>8-course tasting menu. Pairings available by reservation.</p>
+            </div>
+          </div>
+
+          <div class="course-grid" aria-label="Representative courses">
+            <article class="course-card">
+              <span>01</span>
+              <h3>山海开席</h3>
+              <p>以时令小点打开味觉，清鲜、微咸、带一缕炭火香。</p>
+            </article>
+            <article class="course-card">
+              <span>02</span>
+              <h3>潮汐海味</h3>
+              <p>海胆、贝类与发酵米香相接，呈现轻盈的海岸线。</p>
+            </article>
+            <article class="course-card">
+              <span>03</span>
+              <h3>炭火时蔬</h3>
+              <p>当季蔬果经炭火与高汤收束，保留脆度与烟气。</p>
+            </article>
+            <article class="course-card">
+              <span>04</span>
+              <h3>清汤与陈皮</h3>
+              <p>清汤重在透明度，陈皮只作尾韵，不抢主味。</p>
+            </article>
+            <article class="course-card">
+              <span>05</span>
+              <h3>主厨主菜</h3>
+              <p>以禽肉或海鲜为主轴，搭配节气酱汁与手工配菜。</p>
+            </article>
+            <article class="course-card">
+              <span>06</span>
+              <h3>茶点收尾</h3>
+              <p>中式甜点、清茶与最后一口果香，让晚餐缓慢落幕。</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="pairing-row">
+          <article>
+            <span>Tea Pairing</span>
+            <p>岩茶、白茶与冷泡花香茶穿插于菜单之间，强调层次与回甘。</p>
+          </article>
+          <article>
+            <span>Wine Pairing</span>
+            <p>以香槟、勃艮第与成熟白葡萄酒为主，避开厚重酒体。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section chef-section" id="chef" aria-labelledby="chef-title">
+        <div class="chef-copy">
+          <div class="section-kicker">Chef Philosophy</div>
+          <h2 id="chef-title">克制不是少做，而是让每一口都有理由</h2>
+          <p>
+            月汐的厨房以中式汤底、发酵、炭火和节气食材为基础。主厨团队将宴席的完整感拆解成更精确的当代餐序，让客人感到熟悉，却仍然被下一道菜轻轻带走。
+          </p>
+          <p>
+            服务节奏保持安静：先解释食材，再解释火候，最后留给餐桌自己的谈话。
+          </p>
+        </div>
+        <figure class="chef-figure">
+          <img
+            src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=900&q=84"
+            alt="主厨在厨房中专注摆盘"
+          >
+          <figcaption>Executive Chef Lin Wei, YUE XI 月汐</figcaption>
+        </figure>
+      </section>
+
+      <section
+        class="section private-section"
+        id="private-dining"
+        aria-labelledby="private-title"
+      >
+        <div class="section-kicker">Dining Rooms</div>
+        <div class="section-heading">
+          <h2 id="private-title">为重要时刻保留一间餐室</h2>
+          <p>
+            主餐室适合完整品鉴菜单；主厨席适合近距离观看厨房节奏；私宴厅则服务于商务宴请、家庭纪念日和品牌主厨晚宴。
+          </p>
+        </div>
+
+        <div class="room-grid">
+          <article class="room-card">
+            <img
+              src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=900&q=84"
+              alt="安静雅致的高级餐厅主餐室"
+            >
+            <div>
+              <span>Main Dining Room</span>
+              <h3>主餐室</h3>
+              <p>适合二至四位客人体验完整节气菜单，座席间距保持私密。</p>
+            </div>
+          </article>
+          <article class="room-card">
+            <img
+              src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=900&q=84"
+              alt="开放式厨房与吧台餐位"
+            >
+            <div>
+              <span>Chef's Counter</span>
+              <h3>主厨席</h3>
+              <p>更靠近厨房，适合关注技法、火候和茶酒搭配的客人。</p>
+            </div>
+          </article>
+          <article class="room-card">
+            <img
+              src="https://images.unsplash.com/photo-1549488344-cbb6c34cf08b?auto=format&fit=crop&w=900&q=84"
+              alt="私密餐室中的长桌宴请布置"
+            >
+            <div>
+              <span>Private Salon</span>
+              <h3>私宴厅</h3>
+              <p>可容纳六至十二位客人，提供菜单定制和礼宾协调。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section visit-section" id="visit" aria-labelledby="visit-title">
+        <div class="visit-panel">
+          <div>
+            <div class="section-kicker">Visit</div>
+            <h2 id="visit-title">到访信息</h2>
+            <p>
+              月汐位于城市安静街区的一处当代庭院。晚餐以预约制开放，建议提前两周预订。
+            </p>
+          </div>
+          <dl class="detail-list">
+            <div>
+              <dt>Address</dt>
+              <dd>上海市静安区青梧路 18 号庭院内</dd>
+            </div>
+            <div>
+              <dt>Hours</dt>
+              <dd>Tuesday - Sunday, 18:00 - 22:30</dd>
+            </div>
+            <div>
+              <dt>Dress</dt>
+              <dd>Elegant casual. Please avoid beachwear and strong fragrance.</dd>
+            </div>
+            <div>
+              <dt>Contact</dt>
+              <dd>reservations@yuexi.example · +86 21 8000 1968</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="reserve-section" id="reserve" aria-labelledby="reserve-title">
+        <div class="reserve-copy">
+          <div class="section-kicker">Reservations</div>
+          <h2 id="reserve-title">预留你的晚餐时刻</h2>
+          <p>
+            这是一个官网样板，表单不会连接真实订位系统。它保留了真实餐厅官网需要的字段和确认反馈，方便未来接入预订平台或 CRM。
+          </p>
+        </div>
+
+        <form class="reserve-form" data-feedback-form>
+          <label>
+            Name
+            <input type="text" name="name" autocomplete="name" placeholder="Your name">
+          </label>
+          <label>
+            Party size
+            <select name="party-size">
+              <option>2 guests</option>
+              <option>3-4 guests</option>
+              <option>5-6 guests</option>
+              <option>Private Dining</option>
+            </select>
+          </label>
+          <label>
+            Preferred date
+            <input type="text" name="date" placeholder="Friday evening">
+          </label>
+          <label>
+            Contact
+            <input type="email" name="email" autocomplete="email" placeholder="email@example.com">
+          </label>
+          <button class="button button-dark" type="submit">Request Reservation</button>
+          <p class="form-status" aria-live="polite" data-form-status></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="footer-brand" href="#hero">YUE XI 月汐</a>
+        <p>Modern Chinese Fine Dining · Seasonal Tasting Menu</p>
+      </div>
+      <form class="newsletter-form" data-feedback-form>
+        <label>
+          Dining notes
+          <input type="email" name="newsletter" placeholder="email@example.com">
+        </label>
+        <button type="submit">Subscribe</button>
+        <p class="form-status" aria-live="polite" data-form-status></p>
+      </form>
+      <div class="footer-links" aria-label="Footer links">
+        <a href="#menu">Menu</a>
+        <a href="#private-dining">Private Dining</a>
+        <a href="#visit">Visit</a>
+        <a href="#reserve">Reserve</a>
+        <a href="https://guide.michelin.com/us/en" target="_blank" rel="noreferrer">Guide Context</a>
+      </div>
+    </footer>
+  </body>
+</html>
